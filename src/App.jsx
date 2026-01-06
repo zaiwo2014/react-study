@@ -1,6 +1,5 @@
 import { useState } from "react"
-import { Link, Outlet } from "react-router-dom"
-import TestPage from "./page/TestPage"
+import { Link } from "react-router-dom"
 
 function App() {
 
@@ -35,7 +34,6 @@ function App() {
         Go to test page
       </Link>
 
-      <Outlet />
     </>
   )
 }
